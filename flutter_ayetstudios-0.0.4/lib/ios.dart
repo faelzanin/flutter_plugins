@@ -10,7 +10,7 @@ class AyeTStudiosIOS {
   final MethodChannel _channel;
 
   static final AyeTStudiosIOS _instance = AyeTStudiosIOS.private(
-    const MethodChannel('ios_native'),
+    const MethodChannel('flutter_ayetstudios'),
   );
 
   AyeTStudiosIOS.private(MethodChannel channel) : _channel = channel {
